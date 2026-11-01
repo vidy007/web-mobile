@@ -136,7 +136,8 @@ body {
     padding-top: 45vh;
     vertical-align: middle; }
   .projects .secret {
-    color: #faf4ed; }
+    color: #faf4ed;
+    margin-top: -1em; }
 
 @keyframes fx-decoder {
   0% {
