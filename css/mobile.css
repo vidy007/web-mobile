@@ -83,7 +83,8 @@ body {
     margin-bottom: 0.5em;
     animation: fade-in 0.1s 3.8s linear both;
     text-wrap: balance;
-    text-align: center; }
+    text-align: center;
+    font-family: "Lora Regular", serif; }
 
 .links {
   display: flex;
