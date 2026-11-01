@@ -34,8 +34,7 @@
 
 body {
   background: #f7f2eb;
-  color: #45405f;
-  overflow-x: hidden; }
+  color: #45405f; }
 
 .hero {
   display: flex;
