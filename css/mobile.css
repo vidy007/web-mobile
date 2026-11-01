@@ -34,7 +34,8 @@
 
 body {
   background: #f7f2eb;
-  color: #45405f; }
+  color: #45405f;
+  overflow-x: hidden; }
 
 .hero {
   display: flex;
@@ -68,7 +69,7 @@ body {
     animation: fade-in 0.1s 1.12s linear both, hello-slide 0.38s 1.12s cubic-bezier(0.3, 1, 1, 1) both, hello-rise 0.12s 2.6s cubic-bezier(0.11, 0, 0.5, 0) both, fade-out 0.04s 2.68s linear both; }
   .hero__text {
     position: absolute;
-    left: 29%;
+    left: 28.5%;
     font-family: "Abril Fatface", serif;
     animation: test-rise 0.1s 2.72s cubic-bezier(0.5, 1, 0.89, 1) both, fade-in 0.1s 2.72s linear both; }
   .hero .nickname {
@@ -79,16 +80,17 @@ body {
     font-family: "IBM Plex Mono Thin", monospace; }
   .hero__subtitle {
     margin-top: 3em;
-    margin-left: 1em;
-    animation: fade-in 0.1s 3.8s linear both; }
+    margin-bottom: 0.5em;
+    animation: fade-in 0.1s 3.8s linear both;
+    text-wrap: balance;
+    text-align: center; }
 
 .links {
-  margin-left: -0.5em;
   display: flex;
   justify-content: center;
   animation: fade-in 0.1s 4s linear both; }
   .links button {
-    font-size: 1em;
+    font-size: 0.7em;
     width: 3em;
     height: 3em;
     background-color: #fffaf3;
@@ -121,7 +123,7 @@ body {
     margin-left: 0;
     border-radius: 2em 0.8em 0.8em 2em; }
     .links .telegram svg {
-      margin: 0 15px 0 0; }
+      margin: 0 7px 0 7px; }
 
 .projects {
   font-family: "Lora Regular", serif;

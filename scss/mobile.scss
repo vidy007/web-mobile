@@ -93,7 +93,7 @@ $in-second-time: 0.9s;
 body {
   background: $color-bg;
   color: $color-text;
-  // overflow-x: hidden;
+  overflow-x: hidden;
 }
 
 
@@ -141,7 +141,7 @@ body {
   }
   &__text {
     position: absolute;
-    left: 29%;
+    left: 28.5%;
     font-family: "Abril Fatface", serif;
     // display: inline-block;
     // font-size: $test-size;
@@ -161,21 +161,24 @@ body {
 
   &__subtitle {
     margin-top: 3em;
-    margin-left: 1em;
+    margin-bottom: 0.5em;
+    // margin-left: 1em;
     animation:
       fade-in $in-time $in-start-late linear both;
+    text-wrap: balance;
+    text-align: center;
   }
 }
 
 .links {
-  margin-left: -0.5em;
+  // margin-left: -0.5em;
   display: flex;
   justify-content: center;
   // align-content: center;
   animation:
       fade-in $in-time $in-start-latest linear both;
   button {
-    font-size: 1em;
+    font-size: 0.7em;
     width: 3em;
     height: 3em;
     background-color: #fffaf3;
@@ -216,7 +219,7 @@ body {
     margin-left: 0;
     border-radius: 2em 0.8em 0.8em 2em;
     svg {
-      margin: 0 15px 0 0;
+      margin: 0 7px 0 7px;
     }
   }
 }
