@@ -210,14 +210,15 @@ body {
   .tgch {
     margin-left: -0.2em;
     border-radius: 0.8em 2em 2em 0.8em;
-    width: 7em;
+    width: 6em;
   }
   .tgch:hover, .telegram:hover {
     border-radius: 0.8em;
   }
   .telegram {
-    width: 7em;
+    width: 8em;
     margin-left: 0;
+    padding-right: 0.2em;
     border-radius: 2em 0.8em 0.8em 2em;
     svg {
       margin: 0 7px 0 7px;
