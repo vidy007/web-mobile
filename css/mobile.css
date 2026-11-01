@@ -122,10 +122,10 @@ body {
   .links .telegram {
     width: 8em;
     margin-left: 0;
-    padding-right: 0.2em;
+    padding: 0.2em;
     border-radius: 2em 0.8em 0.8em 2em; }
     .links .telegram svg {
-      margin: 0 7px 0 7px; }
+      margin: 0 7px 0 0; }
 
 .projects {
   font-family: "Lora Regular", serif;
