@@ -1,8 +1,5 @@
 // ===== Settings =====
 
-$color-bg:   #f7f2eb;
-$color-text: #45405f;
-
 $title-size:  clamp(5rem, 20vw, 18rem);
 $avatar-size: 1.08em;
 $gap:         0.13em;
@@ -91,8 +88,8 @@ $in-second-time: 0.9s;
 }
 
 body {
-  background: $color-bg;
-  color: $color-text;
+  background: #f7f2eb;
+  color: #45405f;
   overflow-x: hidden;
 }
 
@@ -235,6 +232,9 @@ body {
   h3 {
     padding-top: 45vh;
     vertical-align: middle;
+  }
+  .secret {
+    color: #faf4ed;
   }
 }
 

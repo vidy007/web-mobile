@@ -135,6 +135,8 @@ body {
   .projects h3 {
     padding-top: 45vh;
     vertical-align: middle; }
+  .projects .secret {
+    color: #faf4ed; }
 
 @keyframes fx-decoder {
   0% {
